@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto 0;
+    height: 100vh;
+    background-color:  hsl(30, 38%, 92%);
+}
+img{
+    height: 60vh;
+}
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center; 
+    margin: 150px;
+}
+.price{
+    display: flex;
+    column-gap: 10px;
+}
+.cart{
+    height: 12px;
+    width: 10px;
+}
+button{
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    border-radius: 8px;
+    border: none;
+    padding: 6px 20px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    font-family: monospace;
+}
+.new-price{
+    color: hsl(158, 36%, 37%);
+}
+button:hover{
+    background-color: hsl(159, 54%, 9%);
+    cursor: pointer;
+}
+.perf-details{
+    padding: 30px;
+}
+.details{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+h4{
+    font-family: monospace;
+    line-height: 20px;
+    color: hsl(228, 12%, 48%);
+    margin: auto 0;
+}
+h1{
+    margin: auto 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.name , .price{
+    margin: 12px 0px 12px 0px;
+    width: 100%;
+}
